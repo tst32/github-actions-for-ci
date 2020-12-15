@@ -4,6 +4,9 @@
 name: Improve CI for Node
 #CI for Node
 
+os: [ubuntu-latest, windows-2016]
+  node-version: [12.x, 14.x]
+
 on:
   push:
     branches: [ main ]
