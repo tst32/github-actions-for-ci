@@ -23,7 +23,7 @@ jobs:
         with:
           name: webpack artifacts
           path: public/
-      matrix:
+    needs: build
         node-version: [12.x, 14.x]
 
     steps:
